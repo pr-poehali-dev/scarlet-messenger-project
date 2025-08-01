@@ -61,7 +61,36 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				scarlet: {
+					50: '#fef2f2',
+					100: '#fee2e2',
+					200: '#fecaca',
+					300: '#fca5a5',
+					400: '#f87171',
+					500: '#ef4444',
+					600: '#dc2626',
+					700: '#b91c1c',
+					800: '#991b1b',
+					900: '#7f1d1d',
+					950: '#450a0a',
+				},
+				glass: {
+					dark: 'rgba(0, 0, 0, 0.4)',
+					light: 'rgba(255, 255, 255, 0.1)',
+					border: 'rgba(255, 255, 255, 0.2)',
 				}
+			},
+			backgroundImage: {
+				'scarlet-gradient': 'linear-gradient(135deg, #dc2626 0%, #7f1d1d 50%, #000000 100%)',
+				'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)',
+			},
+			backdropBlur: {
+				glass: '20px',
+			},
+			boxShadow: {
+				glass: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+				'glass-inset': 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
